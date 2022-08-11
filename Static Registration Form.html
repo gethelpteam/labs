@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>
+			Static Registration Form
+		</title>
+	</head>
+	<body style="background-color:aqua">
+		<center>
+			<h1>
+				Static Registration Form
+			</h1>
+		</center>
+	<table align="center" cellpadding = "10" bgcolor="azure">
+		<tr>
+			<td>FIRST NAME</td>
+			<td><input type="text" name="First_Name"/>
+			</td>
+		</tr>
+		<tr>
+			<td>LAST NAME</td>
+			<td><input type="text" name="Last_Name"/>
+			</td>
+		</tr>
+		<tr>
+			<td>RedgNo:</td>
+			<td><input type="text" name="RedgNo"/>
+			</td>
+		<tr>
+			<td>COURSE</td>
+		<td>	
+		<select name="select" id="COURSE">
+		<option value="-1">COURSE:</option>
+		<option value="1">CSE</option>
+		<option value="2">CSE(DS)</option>
+		<option value="3">CSEBS</option>
+		<option value="4">ECE</option>
+		<option value="5">EEE</option>
+		<option value="6">ME</option>
+		<option value="7">CE</option>
+		</select>
+		</td>
+		</tr>
+		<tr>
+			<td>DATE OF BIRTH</td>
+			<td><input type="date" name="DATE_OF_BIRTH"/>
+			</td>
+		</tr>
+		<tr>
+			<td>EMAIL ID</td>
+			<td><input type="email" name="Email_Id"/></td>
+		</tr>
+		<tr>
+			<td>GENDER</td>
+			<td>
+				Male <input type="radio" name="Gender" value="Male" />
+				Female <input type="radio" name="Gender" value="Female" />
+			</td>
+		</tr>
+		<tr>
+			<td>ADDRESS <br /><br /><br /></td>
+			<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td>PIN CODE</td>
+			<td><input type="text" name="Pin_Code" maxlength="6" />
+			</td>
+		</tr>
+		<tr>
+			<td>HOBBIES <br /><br /><br /></td> 
+		<td>
+			<input type="checkbox" name="Hobby_coding" value="Coding" />
+			Coding
+			<input type="checkbox" name="Hobby_browsing" value="Browsing" />
+			Browsing
+			<input type="checkbox" name="Hobby_reading_books" value="Reading_Books" />
+			Reading Books
+			<input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+			Sketching
+			<br />
+			Others
+			<input type="checkbox" name="Hobby_Other" value="Other">
+			<input type="text" name="Other_Hobby" maxlength="30" />
+		</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="reset" value="Reset">
+				<input type="submit" value="Submit">
+			</td>
+		</tr>
+	</table>
+	</body>
+</html>
