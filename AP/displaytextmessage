@@ -1,0 +1,27 @@
+EXPERIMENT 1
+a) Create an android application to display RGMCET Text Message. activity_main.xml:
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Welcome to RGMCET"
+android:textSize="40sp"
+android:textColor=”#F000” />
+</LinearLayout>
+MainActivity.java
+package cubexsoft.helloworld;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+public class MainActivity extends android.app.Activity
+{
+@Override
+protected void onCreate(@Nullable Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+}
+}
